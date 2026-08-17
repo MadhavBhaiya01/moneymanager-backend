@@ -1,0 +1,60 @@
+# ===============================
+# Maven
+# ===============================
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ===============================
+# Java
+# ===============================
+*.class
+*.log
+hs_err_pid*
+
+# ===============================
+# Spring Boot
+# ===============================
+application-prod.properties
+application-local.properties
+application-dev.properties
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# ===============================
+# IDE - IntelliJ IDEA
+# ===============================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# ===============================
+# IDE - VS Code
+# ===============================
+.vscode/
+.history/
+
+# ===============================
+# Eclipse
+# ===============================
+.classpath
+.project
+.settings/
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Temporary files
+# ===============================
+*.tmp
+*.temp
+*.swp
+*.swo
