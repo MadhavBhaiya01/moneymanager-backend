@@ -68,11 +68,9 @@ public class SecurityConfig {
                                                 // PUBLIC ENDPOINTS
                                                 // ----------------------------------
                                                 .requestMatchers(
-                                                                "/health",
-                                                                "/status",
-                                                                "/register",
-                                                                "/login",
-                                                                "/activate",
+                                                                "/api/v1.0/auth/**",
+                                                                "/api/v1.0/health",
+                                                                "/api/v1.0/status",
                                                                 "/error")
                                                 .permitAll()
 
